@@ -23,6 +23,7 @@
 // * acceptance of all terms of the Geant4 Software license.          *
 // ********************************************************************
 //
+
 #include "HadrontherapyRBEAccumulable.hh"
 #include "HadrontherapyRBE.hh"
 
@@ -36,7 +37,7 @@ HadrontherapyRBEAccumulable::HadrontherapyRBEAccumulable()
 {
 
 }
-
+ //kp: 8/26/19 (Essential method, couldn't comment out)
 void HadrontherapyRBEAccumulable::Merge(const G4VAccumulable& rhs)
 {
     if (GetVerboseLevel() > 1)
@@ -69,6 +70,8 @@ void HadrontherapyRBEAccumulable::Reset()
     }
 }
 
+/* kp: commented out on 8/26/19: Looks like it's not used. It compiled and ran without any problem.
+
 void HadrontherapyRBEAccumulable::Accumulate(G4double E, G4double energyDeposit, G4double dX, G4int Z, G4int i, G4int j, G4int k)
 {
     if (!fInitialized)
@@ -94,7 +97,7 @@ void HadrontherapyRBEAccumulable::Accumulate(G4double E, G4double energyDeposit,
         fBetaNumerator[n] += sqrt(get<1>(alpha_beta)) * energyDeposit;
     }
 }
-
+*/
 const HadrontherapyRBEAccumulable::array_type HadrontherapyRBEAccumulable::GetEnergyDeposit() const
 {
     return fEnergyDeposit;
@@ -126,6 +129,7 @@ void HadrontherapyRBEAccumulable::Initialize()
     fAlphaNumerator = array_type(0.0, fVoxels);
     fBetaNumerator = array_type(0.0, fVoxels);
     fDenominator = array_type(0.0, fVoxels);
-    fEnergyDeposit = array_type(0.0, fVoxels);
+    //fEnergyDeposit = array_type(0.0, fVoxels); //Original line
+    fEnergyDeposit = array_type(1.0, fVoxels); //KPA's line
     fInitialized = true;
 }
