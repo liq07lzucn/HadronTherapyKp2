@@ -89,6 +89,9 @@
 #include <time.h>
 #include "G4Timer.hh"
 
+//#define DEBUG_KPA 1 //9/4/19
+#include "debug_kpa.hh"
+
 //************************MT*********************
 #ifdef G4MULTITHREADED
 #include "G4MTRunManager.hh"
@@ -105,6 +108,7 @@
 //#ifdef G4UI_USE
 #include "G4UIExecutive.hh"
 //#endif
+
 
 //////////////////////////////////////////////////////////////////////////////////////////////
 int main(int argc ,char ** argv)

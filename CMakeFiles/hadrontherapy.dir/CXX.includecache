@@ -51,6 +51,8 @@ time.h
 -
 G4Timer.hh
 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/G4Timer.hh
+debug_kpa.hh
+/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/debug_kpa.hh
 G4MTRunManager.hh
 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/G4MTRunManager.hh
 G4RunManager.hh
@@ -327,6 +329,8 @@ HadrontherapyMatrix.hh
 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMatrix.hh
 HadrontherapyEventActionMessenger.hh
 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventActionMessenger.hh
+debug_kpa.hh
+/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/debug_kpa.hh
 
 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventActionMessenger.cc
 HadrontherapyEventActionMessenger.hh
@@ -11511,4 +11515,6 @@ globals.hh
 Source/hadrontherapy/include/globals.hh
 G4UImessenger.hh
 Source/hadrontherapy/include/G4UImessenger.hh
+
+Source/hadrontherapy/include/debug_kpa.hh
 

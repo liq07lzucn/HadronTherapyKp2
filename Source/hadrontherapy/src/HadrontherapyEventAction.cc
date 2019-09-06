@@ -41,6 +41,8 @@
 #include "HadrontherapyMatrix.hh"
 #include "HadrontherapyEventActionMessenger.hh"
 
+#include "debug_kpa.hh"
+
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyEventAction::HadrontherapyEventAction() :
 drawFlag("all" ),printModulo(10), pointerEventMessenger(0)
@@ -66,6 +68,10 @@ void HadrontherapyEventAction::BeginOfEventAction(const G4Event*)
 /////////////////////////////////////////////////////////////////////////////
 void HadrontherapyEventAction::EndOfEventAction(const G4Event* evt)
 {
+#ifdef  DEBUG_KPA
+    G4cout<<"\n\n KPA: Hello, I am inside HadrontherapyEventAction::EndOfEventAction(const G4Event* evt)\n\n"<<G4endl;
+#endif
+
     if(hitsCollectionID < 0)
         return;
     G4HCofThisEvent* HCE = evt -> GetHCofThisEvent();

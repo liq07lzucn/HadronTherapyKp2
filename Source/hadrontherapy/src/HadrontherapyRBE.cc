@@ -552,7 +552,9 @@ void HadrontherapyRBE::StoreRBE()
 
     if (ofs.is_open())
     {
-        ofs << "Dose(Gy)" << std::setw(width) << "ln(S) " << std::setw(width) << "Survival"  << std::setw(width) << "DoseB(Gy)" << std::setw(width) << "RBE" <<  std::setw(width) << "depth(slice)" << G4endl;
+        // ofs << "Dose(Gy)" << std::setw(width) << "ln(S) " << std::setw(width) << "Survival"  << std::setw(width) << "DoseB(Gy)"
+        ofs << "Dose(Gy)" << std::setw(width) << "ln(S) " << std::setw(width) << "Survival"  << std::setw(width) << "kp: DoseX(Gy)"
+            << std::setw(width) << "RBE" <<  std::setw(width) << "depth(slice)" << G4endl;
 
         for (G4int i = 0; i < fNumberOfVoxelsAlongX * fNumberOfVoxelsAlongY * fNumberOfVoxelsAlongZ; i++)
 

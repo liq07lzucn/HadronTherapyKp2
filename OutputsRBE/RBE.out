@@ -1,4 +1,4 @@
-Dose(Gy)         ln(S)        Survival      DoseB(Gy)            RBE   depth(slice)
+Dose(Gy)         ln(S)        Survival  kp: DoseX(Gy)            RBE   depth(slice)
 0.116825              0              1              0              0              0
 0.116825              0              1              0              0              1
 0.116825              0              1              0              0              2
