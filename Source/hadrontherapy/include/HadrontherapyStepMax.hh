@@ -34,7 +34,7 @@
 #include "G4ParticleDefinition.hh"
 #include "G4Step.hh"
 
-class HadrontherapyStepMaxMessenger;
+//class HadrontherapyStepMaxMessenger;
 
 /////////////////////////////////////////////////////////////////////////////
 class HadrontherapyStepMax : public G4VDiscreteProcess
@@ -60,7 +60,7 @@ class HadrontherapyStepMax : public G4VDiscreteProcess
   private:
 
      G4double    MaxChargedStep;
-     HadrontherapyStepMaxMessenger* pMess;
+    // HadrontherapyStepMaxMessenger* pMess;
 };
 
 #endif

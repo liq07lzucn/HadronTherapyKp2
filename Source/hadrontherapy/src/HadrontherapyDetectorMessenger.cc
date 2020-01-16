@@ -27,7 +27,8 @@
 // See more at: https://twiki.cern.ch/twiki/bin/view/Geant4/AdvancedExamplesHadrontherapy
 
 #include "HadrontherapyDetectorMessenger.hh"
-#include "HadrontherapyDetectorConstruction.hh"
+//#include "HadrontherapyDetectorConstruction.hh"
+#include "PassiveProtonBeamLine.hh"
 #include "G4UIdirectory.hh"
 #include "G4UIcmdWith3VectorAndUnit.hh"
 #include "G4UIcmdWithoutParameter.hh"
@@ -36,7 +37,8 @@
 #include "G4UIcmdWithABool.hh"
 
 /////////////////////////////////////////////////////////////////////////////
-HadrontherapyDetectorMessenger::HadrontherapyDetectorMessenger(HadrontherapyDetectorConstruction* detector)
+//HadrontherapyDetectorMessenger::HadrontherapyDetectorMessenger(HadrontherapyDetectorConstruction* detector)
+HadrontherapyDetectorMessenger::HadrontherapyDetectorMessenger(PassiveProtonBeamLine* detector)
 :hadrontherapyDetector(detector)
 {
     // Change Phantom size

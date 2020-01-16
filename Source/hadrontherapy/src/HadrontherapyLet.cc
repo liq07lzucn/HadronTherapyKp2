@@ -26,11 +26,13 @@
 // Hadrontherapy advanced example for Geant4
 // See more at: https://twiki.cern.ch/twiki/bin/view/Geant4/AdvancedExamplesHadrontherapy
 
-#include "HadrontherapyDetectorConstruction.hh"
+//#include "HadrontherapyDetectorConstruction.hh"
+#include "PassiveProtonBeamLine.hh"
 #include "HadrontherapyLet.hh"
 
 #include "HadrontherapyMatrix.hh"
-#include "HadrontherapyInteractionParameters.hh"
+//#include "HadrontherapyInteractionParameters.hh"
+#include "G4EmCalculator.hh"
 #include "HadrontherapyPrimaryGeneratorAction.hh"
 #include "HadrontherapyMatrix.hh"
 #include "G4RunManager.hh"
@@ -38,9 +40,11 @@
 #include <cmath>
 
 HadrontherapyLet* HadrontherapyLet::instance = NULL;
-G4bool HadrontherapyLet::doCalculation = false;
+//G4bool HadrontherapyLet::doCalculation = false;
+G4bool HadrontherapyLet::doCalculation = true; //kp: my line because I removed Analysis Messenger
 
-HadrontherapyLet* HadrontherapyLet::GetInstance(HadrontherapyDetectorConstruction *pDet)
+//HadrontherapyLet* HadrontherapyLet::GetInstance(HadrontherapyDetectorConstruction *pDet)
+HadrontherapyLet* HadrontherapyLet::GetInstance(PassiveProtonBeamLine *pDet)
 {
     if (instance) delete instance;
     instance = new HadrontherapyLet(pDet);
@@ -52,7 +56,8 @@ HadrontherapyLet* HadrontherapyLet::GetInstance()
     return instance;
 }
 
-HadrontherapyLet::HadrontherapyLet(HadrontherapyDetectorConstruction* pDet)
+//HadrontherapyLet::HadrontherapyLet(HadrontherapyDetectorConstruction* pDet)
+HadrontherapyLet::HadrontherapyLet(PassiveProtonBeamLine* pDet)
 :filename("Let.out"),matrix(0) // Default output filename
 {
     
@@ -229,8 +234,10 @@ void HadrontherapyLet::LetOutput()
 
 void HadrontherapyLet::StoreLetAscii()
 {
+    G4cout<< "kp debug in HadrontherapyLet::StoreLetAscii() "<<G4endl; //10/18/19
 #define width 15L
-    
+//#define width 10L //kp
+
     if(ionLetStore.size())
     {
         ofs.open(filename, std::ios::out);
@@ -240,6 +247,7 @@ void HadrontherapyLet::StoreLetAscii()
             // Write the voxels index and total Lets and the list of particles/ions
             ofs << std::setprecision(6) << std::left <<
             "i\tj\tk\t";
+            ofs <<  std::setw(width) << "Dose";
             ofs <<  std::setw(width) << "LDT";
             ofs <<  std::setw(width) << "LTT";
             
@@ -290,6 +298,9 @@ void HadrontherapyLet::StoreLetAscii()
                         // write total Lets and voxels index
                         ofs << G4endl;
                         ofs << i << '\t' << j << '\t' << k << '\t';
+                        //ofs << std::setw(width) << DtotalLetD[v]/(keV); //kp: not sure of units
+                        //ofs << std::setw(width) << DtotalLetD[v]/(MeV); //kp: Run got killed (no Let.out produced)
+                        ofs << std::setw(width) << DtotalLetD[v]; //kp
                         ofs << std::setw(width) << totalLetD[v]/(keV/um);
                         ofs << std::setw(width) << totalLetT[v]/(keV/um);
                         

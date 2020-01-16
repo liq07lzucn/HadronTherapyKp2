@@ -31,7 +31,7 @@
 
 #include "G4VUserPrimaryGeneratorAction.hh"
 #include "globals.hh"
-#include "HadrontherapyPrimaryGeneratorMessenger.hh"
+//#include "HadrontherapyPrimaryGeneratorMessenger.hh"
 #include "G4RunManager.hh"
 #include "G4ParticleGun.hh"
 
@@ -65,7 +65,7 @@ class HadrontherapyPrimaryGeneratorAction : public G4VUserPrimaryGeneratorAction
     G4String calculatedPhaseSpaceFileIN;
     void setGunCalculatedPhaseSpace();
     
-    HadrontherapyPrimaryGeneratorMessenger *PrimaryGeneratorMessenger;
+    //HadrontherapyPrimaryGeneratorMessenger *PrimaryGeneratorMessenger;
     G4ParticleGun *particleGuns;
     
     

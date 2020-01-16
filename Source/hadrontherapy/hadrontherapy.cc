@@ -79,9 +79,9 @@
 #include "G4UImessenger.hh"
 #include "globals.hh"
 #include "HadrontherapySteppingAction.hh"
-#include "HadrontherapyGeometryController.hh"
-#include "HadrontherapyGeometryMessenger.hh"
-#include "HadrontherapyInteractionParameters.hh"
+//#include "HadrontherapyGeometryController.hh"
+//#include "HadrontherapyGeometryMessenger.hh"
+//#include "HadrontherapyInteractionParameters.hh"
 #include "HadrontherapyLet.hh"
 
 #include "G4ScoringManager.hh"
@@ -89,8 +89,10 @@
 #include <time.h>
 #include "G4Timer.hh"
 
+#include "PassiveProtonBeamLine.hh" //kp:
+
 //#define DEBUG_KPA 1 //9/4/19
-#include "debug_kpa.hh"
+//#include "debug_kpa.hh"
 
 //************************MT*********************
 #ifdef G4MULTITHREADED
@@ -138,7 +140,11 @@ int main(int argc ,char ** argv)
 #else
     G4RunManager* runManager = new G4RunManager;
 #endif
+
+    G4ScoringManager *scoringManager = G4ScoringManager::GetScoringManager();
+    scoringManager->SetVerboseLevel(1);
     
+    /*
     // Geometry controller is responsible for instantiating the
     // geometries. All geometry specific m tasks are now in class
     // HadrontherapyGeometryController.
@@ -147,7 +153,7 @@ int main(int argc ,char ** argv)
     // Connect the geometry controller to the G4 user interface
     HadrontherapyGeometryMessenger *geometryMessenger = new HadrontherapyGeometryMessenger(geometryController);
 
-    /**
+    / **
      *     //kp: G4ScoringManager seems to be a singleton object
      * Scoring manager seems to be a singleton object (there is only one instance).
      * The pointer to this object is available through the use of the method GetScoringManager();
@@ -159,13 +165,13 @@ int main(int argc ,char ** argv)
      *     to the singleton object (the pointer is a static private member of the same class).
      *
      *  https://www.interviewsansar.com/2014/10/25/singleton-class-design-with-an-example/
-     */
-
-    G4ScoringManager *scoringManager = G4ScoringManager::GetScoringManager();
-    scoringManager->SetVerboseLevel(1);
+     * /
     
     // Initialize the default Hadrontherapy geometry
     geometryController->SetGeometry("default");
+    */
+    runManager -> SetUserInitialization(new PassiveProtonBeamLine()); //kp: My line instead of line via geomController
+
     
     // Initialize the physics
     G4PhysListFactory factory;
@@ -199,13 +205,14 @@ int main(int argc ,char ** argv)
     
     // Initialize command based scoring
     G4ScoringManager::GetScoringManager();
-    
+   
+   /* 
     // Interaction data: stopping powers
     HadrontherapyInteractionParameters* pInteraction = new HadrontherapyInteractionParameters(true);
     
     // Initialize analysis
     HadrontherapyAnalysis* analysis = HadrontherapyAnalysis::GetInstance();
-    
+    */
 
     
 // Initialise the Visualisation
@@ -231,7 +238,8 @@ int main(int argc ,char ** argv)
         //UImanager -> ApplyCommand("/control/execute macro/defaultMacro.mac");
         //UImanager -> ApplyCommand("/control/execute init_visCpdFromElsewhereAndModified.mac");//Works
         //UImanager -> ApplyCommand("/control/execute visCpdFromElsewhereAndModified2.mac"); //Works
-        UImanager -> ApplyCommand("/control/execute macro/visualisationMacro.mac"); //works
+        //UImanager -> ApplyCommand("/control/execute macro/visualisationMacro.mac"); //works
+        UImanager -> ApplyCommand("/control/execute  macro/visualisationMacroKp2.mac"); //works
         //UImanager -> ApplyCommand("/control/execute visCpdFromElsewhereAndModified.mac");//Works but no geom (dark panel)
         ui -> SessionStart();
         delete ui;
@@ -250,7 +258,7 @@ int main(int argc ,char ** argv)
     // in the main() program !
     
     
-        if ( HadrontherapyMatrix * pMatrix = HadrontherapyMatrix::GetInstance() )
+    if ( HadrontherapyMatrix * pMatrix = HadrontherapyMatrix::GetInstance() )
     {
         // pMatrix -> TotalEnergyDeposit();
         pMatrix -> StoreDoseFluenceAscii();
@@ -258,17 +266,17 @@ int main(int argc ,char ** argv)
     }
     
     if (HadrontherapyLet *let = HadrontherapyLet::GetInstance())
-        if(let -> doCalculation)
+        //kp: if(let -> doCalculation)
         {
             let -> LetOutput(); 	// Calculate let
             let -> StoreLetAscii(); // Store it
         }
     
-    delete geometryMessenger;
-    delete geometryController;
-    delete pInteraction;
+    //delete geometryMessenger;
+    //delete geometryController;
+    //delete pInteraction;
     delete runManager;
-    delete analysis;
+    //delete analysis;
     return 0;
     
 }

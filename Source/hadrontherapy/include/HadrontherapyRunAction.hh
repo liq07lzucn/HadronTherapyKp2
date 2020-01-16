@@ -33,12 +33,12 @@
 #include "G4RunManager.hh"
 #include "globals.hh"
 
-#include "HadrontherapyRBEAccumulable.hh"
+//#include "HadrontherapyRBEAccumulable.hh"
 
 class G4Run;
 class HadrontherapyAnalysisManager;
 class HadrontherapyDetectorConstruction;
-class HadrontherapyRunMessenger;
+//class HadrontherapyRunMessenger;
 class HadrontherapyFactory;
 
 class HadrontherapyRunAction : public G4UserRunAction
@@ -64,7 +64,7 @@ private:
   G4int electromagnetic;
   G4int hadronic;
 
-  HadrontherapyRBEAccumulable fRBEAccumulable;
+  //HadrontherapyRBEAccumulable fRBEAccumulable;
 };
 #endif
 

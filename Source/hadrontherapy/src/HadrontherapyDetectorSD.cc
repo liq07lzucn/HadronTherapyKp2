@@ -120,7 +120,7 @@ G4bool HadrontherapyDetectorSD::ProcessHits(G4Step* aStep, G4TouchableHistory* )
     G4String namePre = volumePre->GetName();
     
     
-    
+    //G4cout<<"kp: i, j, k, dx, edep: "<<i<<" "<<j<<" "<<k<<" "<<DX<<" "<<energyDeposit<<G4endl;
     
     
     HadrontherapyMatrix* matrix = HadrontherapyMatrix::GetInstance();

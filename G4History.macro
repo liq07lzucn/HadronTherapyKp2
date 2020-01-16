@@ -3,7 +3,6 @@
 /vis/open OGL 600/tracking/storeTrajectory 2
 reate OGL
 /vis/viewer/create ! ! 600x600-0+0
-/vis/viewer/refresh
 /vis/viewer/set/autoRefresh false
 /vis/verbose errors
 /vis/drawVolume
@@ -31,7 +30,6 @@ reate OGL
 /vis/set/textLayout
 /vis/set/textColour
 /vis/scene/add/scale
-/vis/scene/notifyHandlers
 /vis/scene/add/axes
 /vis/scene/notifyHandlers
 /vis/scene/add/eventID
@@ -41,7 +39,6 @@ reate OGL
 /vis/scene/add/logo2D
 /vis/scene/notifyHandlers
 /vis/scene/add/logo
-/vis/scene/notifyHandlers
 /vis/set/colour red
 /vis/set/lineWidth 2
 /vis/scene/add/frame
@@ -58,5 +55,4 @@ reate OGL
 /vis/viewer/set/hiddenMarker true
 /vis/viewer/set/viewpointThetaPhi 120 150
 /vis/viewer/set/autoRefresh true
-/vis/viewer/refresh
 /vis/verbose warnings

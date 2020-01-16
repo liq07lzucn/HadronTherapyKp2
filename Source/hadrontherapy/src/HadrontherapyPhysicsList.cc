@@ -39,7 +39,7 @@
 #include "G4Region.hh"
 #include "G4RegionStore.hh"
 #include "HadrontherapyPhysicsList.hh"
-#include "HadrontherapyPhysicsListMessenger.hh"
+//#include "HadrontherapyPhysicsListMessenger.hh"
 #include "HadrontherapyStepMax.hh"
 #include "G4PhysListFactory.hh"
 #include "G4VPhysicsConstructor.hh"
@@ -76,7 +76,7 @@ HadrontherapyPhysicsList::HadrontherapyPhysicsList() : G4VModularPhysicsList()
     cutForElectron  = defaultCutValue;
     cutForPositron  = defaultCutValue;
     
-    pMessenger = new HadrontherapyPhysicsListMessenger(this);
+    //pMessenger = new HadrontherapyPhysicsListMessenger(this);
     SetVerboseLevel(1);
     decay_List = new G4DecayPhysics();
     // Elecromagnetic physics
@@ -88,7 +88,7 @@ HadrontherapyPhysicsList::HadrontherapyPhysicsList() : G4VModularPhysicsList()
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyPhysicsList::~HadrontherapyPhysicsList()
 {
-    delete pMessenger;
+    //delete pMessenger;
     delete emPhysicsList;
     delete decay_List;
     //delete radioactiveDecay_List;

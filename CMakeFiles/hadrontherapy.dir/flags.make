@@ -6,5 +6,5 @@ CXX_FLAGS = -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-stri
 
 CXX_DEFINES = -DG4INTY_USE_QT -DG4INTY_USE_XT -DG4LIB_BUILD_DLL -DG4MULTITHREADED -DG4UI_USE -DG4UI_USE_QT -DG4UI_USE_TCSH -DG4VERBOSE -DG4VIS_USE -DG4VIS_USE_OPENGL -DG4VIS_USE_OPENGLQT -DG4VIS_USE_OPENGLX -DG4_STORE_TRAJECTORY
 
-CXX_INCLUDES = -isystem /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/include/Geant4 -isystem /usr/local/include -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/include/QtGui -isystem /usr/local/include/QtOpenGL -I/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/include -I/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/shared/include 
+CXX_INCLUDES = -isystem /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/include/Geant4 -isystem /usr/local/include -iframework /usr/local/lib -isystem /usr/local/lib/QtCore.framework/Headers -isystem /usr/local/include/QtGui -isystem /usr/local/include/QtOpenGL -I/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/include -I/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/shared/include 
 

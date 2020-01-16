@@ -38,10 +38,11 @@
 #include "G4RunManager.hh"
 #include "G4ParticleGun.hh"
 #include "HadrontherapySteppingAction.hh"
-#include "HadrontherapyAnalysisFileMessenger.hh"
+//#include "HadrontherapyAnalysisFileMessenger.hh"
 #include "G4SystemOfUnits.hh"
 #include <time.h>
 
+/*
 HadrontherapyAnalysis* HadrontherapyAnalysis::instance = 0;
 /////////////////////////////////////////////////////////////////////////////
 
@@ -62,6 +63,7 @@ HadrontherapyAnalysis* HadrontherapyAnalysis::GetInstance(){
   if (instance == 0) instance = new HadrontherapyAnalysis;
     return instance;
 }
+*/
 
 HadrontherapyMatrix* HadrontherapyMatrix::instance = NULL;
 G4bool HadrontherapyMatrix::secondary = false;
@@ -356,7 +358,8 @@ void HadrontherapyMatrix::StoreDoseFluenceAscii(G4String file)
         // Total dose
         ofs << std::setw(width) << "Dose(Gy)";
         
-        
+        //kp: If secondary is true, write more (columns) on header and add a
+        //    suffix of "_1" to the name if it is a primary, else add nothing.
         if (secondary)
         {
             for (size_t l=0; l < ionStore.size(); l++)

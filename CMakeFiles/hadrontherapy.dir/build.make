@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy
+CMAKE_SOURCE_DIR = /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew
+CMAKE_BINARY_DIR = /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hadrontherapy.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/hadrontherapy.dir/flags.make
 
 CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o: Source/hadrontherapy/hadrontherapy.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/hadrontherapy.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/hadrontherapy.cc
 
 CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/hadrontherapy.cc > CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/hadrontherapy.cc > CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.i
 
 CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/hadrontherapy.cc -o CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/hadrontherapy.cc -o CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.s
 
 CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o.provides.build: CMakeFiles/hadro
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o: Source/hadrontherapy/src/HadrontherapyActionInitialization.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyActionInitialization.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o.requires:
 
@@ -105,66 +105,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o.provides
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyAnalysisFileMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyAnalysisFileMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyAnalysisFileMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyAnalysisFileMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o: Source/hadrontherapy/src/HadrontherapyDetectorConstruction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorConstruction.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorConstruction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorConstruction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o: Source/hadrontherapy/src/HadrontherapyDetectorHit.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorHit.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o.requires:
 
@@ -179,16 +131,16 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o.provides.build: C
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o.requires:
 
@@ -203,16 +155,16 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o.provides.bu
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o: Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorROGeometry.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o.requires:
 
@@ -227,16 +179,16 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o.provides.b
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o: Source/hadrontherapy/src/HadrontherapyDetectorSD.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyDetectorSD.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o.requires:
 
@@ -249,42 +201,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o.provides: CMakeFil
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o: Source/hadrontherapy/src/HadrontherapyElectricTabulatedField3D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyElectricTabulatedField3D.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyElectricTabulatedField3D.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyElectricTabulatedField3D.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o: Source/hadrontherapy/src/HadrontherapyEventAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyEventAction.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyEventAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyEventAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o.requires:
 
@@ -297,114 +225,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o.provides: CMakeFi
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyEventActionMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventActionMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventActionMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyEventActionMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o: Source/hadrontherapy/src/HadrontherapyGeometryController.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryController.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryController.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryController.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyGeometryMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyGeometryMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o: Source/hadrontherapy/src/HadrontherapyInteractionParameters.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyInteractionParameters.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyInteractionParameters.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyInteractionParameters.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o: Source/hadrontherapy/src/HadrontherapyLet.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyLet.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyLet.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyLet.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyLet.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyLet.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyLet.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o.requires:
 
@@ -417,42 +249,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o.provides: CMakeFiles/hadr
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o: Source/hadrontherapy/src/HadrontherapyMagneticField3D.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMagneticField3D.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMagneticField3D.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMagneticField3D.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o: Source/hadrontherapy/src/HadrontherapyMatrix.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMatrix.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyMatrix.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMatrix.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyMatrix.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyMatrix.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyMatrix.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o.requires:
 
@@ -465,114 +273,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o.provides: CMakeFiles/h
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o: Source/hadrontherapy/src/HadrontherapyModulator.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulator.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulator.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulator.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyModulatorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulatorMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulatorMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyModulatorMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyParameterMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParameterMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParameterMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParameterMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o: Source/hadrontherapy/src/HadrontherapyParticles.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParticles.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParticles.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyParticles.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o: Source/hadrontherapy/src/HadrontherapyPhysicsList.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPhysicsList.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o.requires:
 
@@ -585,42 +297,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o.provides: CMakeFi
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyPhysicsListMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsListMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsListMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPhysicsListMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o: Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o.requires:
 
@@ -633,90 +321,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o.provid
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyPrimaryGeneratorMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o: Source/hadrontherapy/src/HadrontherapyRBE.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBE.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBE.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBE.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o: Source/hadrontherapy/src/HadrontherapyRBEAccumulable.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBEAccumulable.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBEAccumulable.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRBEAccumulable.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o: Source/hadrontherapy/src/HadrontherapyRunAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRunAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyRunAction.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRunAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyRunAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyRunAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyRunAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o.requires:
 
@@ -731,16 +347,16 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o.provides.build: CMa
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o: Source/hadrontherapy/src/HadrontherapyStepMax.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMax.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyStepMax.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMax.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyStepMax.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMax.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapyStepMax.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o.requires:
 
@@ -753,42 +369,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o.provides: CMakeFiles/
 CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyStepMaxMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMaxMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMaxMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyStepMaxMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o: Source/hadrontherapy/src/HadrontherapySteppingAction.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapySteppingAction.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapySteppingAction.cc
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapySteppingAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapySteppingAction.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapySteppingAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/HadrontherapySteppingAction.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o.requires:
 
@@ -801,162 +393,18 @@ CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o.provides: CMak
 CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o: Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o: Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc > CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o: Source/hadrontherapy/src/LaserDrivenBeamLine.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLine.cc
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLine.cc > CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLine.cc -o CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o: Source/hadrontherapy/src/LaserDrivenBeamLineMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLineMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLineMessenger.cc > CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/LaserDrivenBeamLineMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o: Source/hadrontherapy/src/PassiveCarbonBeamLine.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLine.cc
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLine.cc > CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLine.cc -o CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o
-
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o: Source/hadrontherapy/src/PassiveCarbonBeamLineMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLineMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLineMessenger.cc > CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveCarbonBeamLineMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o
-
-
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o: Source/hadrontherapy/src/PassiveProtonBeamLine.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLine.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/PassiveProtonBeamLine.cc
 
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLine.cc > CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/PassiveProtonBeamLine.cc > CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.i
 
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLine.cc -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy/src/PassiveProtonBeamLine.cc -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.s
 
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o.requires:
 
@@ -969,114 +417,42 @@ CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o.provides: CMakeFiles
 CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o
 
 
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o: CMakeFiles/hadrontherapy.dir/flags.make
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o: Source/hadrontherapy/src/PassiveProtonBeamLineMessenger.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o -c /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLineMessenger.cc
-
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLineMessenger.cc > CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.i
-
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy/src/PassiveProtonBeamLineMessenger.cc -o CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.s
-
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.requires:
-
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.requires
-
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.provides: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.requires
-	$(MAKE) -f CMakeFiles/hadrontherapy.dir/build.make CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.provides.build
-.PHONY : CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.provides
-
-CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.provides.build: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o
-
-
 # Object files for target hadrontherapy
 hadrontherapy_OBJECTS = \
 "CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o" \
 "CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o" \
-"CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o"
+"CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o"
 
 # External object files for target hadrontherapy
 hadrontherapy_EXTERNAL_OBJECTS =
 
 hadrontherapy: CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o
-hadrontherapy: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o
 hadrontherapy: CMakeFiles/hadrontherapy.dir/build.make
 hadrontherapy: /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/lib/libG4Tree.dylib
 hadrontherapy: /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/lib/libG4GMocren.dylib
@@ -1118,7 +494,7 @@ hadrontherapy: /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/lib/
 hadrontherapy: /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/lib/libG4global.dylib
 hadrontherapy: /Users/kpadhikari/KpInstalls/Geant4/geant4.10.05.p01-install/lib/libG4clhep.dylib
 hadrontherapy: CMakeFiles/hadrontherapy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Linking CXX executable hadrontherapy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable hadrontherapy"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hadrontherapy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1128,43 +504,19 @@ CMakeFiles/hadrontherapy.dir/build: hadrontherapy
 
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/hadrontherapy.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyActionInitialization.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyAnalysisFileMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorConstruction.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorHit.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorMessenger.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorROGeometry.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyDetectorSD.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyElectricTabulatedField3D.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventAction.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyEventActionMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryController.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyGeometryMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyInteractionParameters.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyLet.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMagneticField3D.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyMatrix.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulator.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyModulatorMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParameterMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyParticles.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsList.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPhysicsListMessenger.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorAction.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyPrimaryGeneratorMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBE.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRBEAccumulable.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyRunAction.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMax.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyStepMaxMessenger.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapySteppingAction.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLine.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/HadrontherapyTIFPAPassiveProtonBeamLineMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLine.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/LaserDrivenBeamLineMessenger.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLine.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/PassiveCarbonBeamLineMessenger.cc.o.requires
 CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLine.cc.o.requires
-CMakeFiles/hadrontherapy.dir/requires: CMakeFiles/hadrontherapy.dir/src/PassiveProtonBeamLineMessenger.cc.o.requires
 
 .PHONY : CMakeFiles/hadrontherapy.dir/requires
 
@@ -1173,6 +525,6 @@ CMakeFiles/hadrontherapy.dir/clean:
 .PHONY : CMakeFiles/hadrontherapy.dir/clean
 
 CMakeFiles/hadrontherapy.dir/depend:
-	cd /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/CMakeFiles/hadrontherapy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2 /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/CMakeFiles/hadrontherapy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hadrontherapy.dir/depend
 

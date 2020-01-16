@@ -30,7 +30,8 @@
 #include "HadrontherapyPrimaryGeneratorAction.hh"
 #include "HadrontherapyRunAction.hh"
 #include "HadrontherapySteppingAction.hh"
-#include "HadrontherapyDetectorConstruction.hh"
+//#include "HadrontherapyDetectorConstruction.hh"
+//#include "PassiveProtonBeamLine.hh" //kp
 #include "G4GeneralParticleSource.hh"
 
 #include "HadrontherapyEventAction.hh"

@@ -37,24 +37,24 @@
 #include "HadrontherapyEventAction.hh"
 #include "HadrontherapyDetectorHit.hh"
 #include "HadrontherapyDetectorSD.hh"
-#include "HadrontherapyDetectorConstruction.hh"
+//#include "HadrontherapyDetectorConstruction.hh"
 #include "HadrontherapyMatrix.hh"
-#include "HadrontherapyEventActionMessenger.hh"
+//#include "HadrontherapyEventActionMessenger.hh"
 
-#include "debug_kpa.hh"
+//#include "debug_kpa.hh"
 
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyEventAction::HadrontherapyEventAction() :
-drawFlag("all" ),printModulo(10), pointerEventMessenger(0)
+drawFlag("all" ),printModulo(10)//, pointerEventMessenger(0)
 {
     hitsCollectionID = -1;
-    pointerEventMessenger = new HadrontherapyEventActionMessenger(this);
+    //pointerEventMessenger = new HadrontherapyEventActionMessenger(this);
 }
 
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyEventAction::~HadrontherapyEventAction()
 {
-    delete pointerEventMessenger;
+    //delete pointerEventMessenger;
 }
 
 /////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-# Install script for directory: /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/Source/hadrontherapy
+# Install script for directory: /Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/Source/hadrontherapy
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -28,7 +28,7 @@ if(NOT CMAKE_INSTALL_COMPONENT)
 endif()
 
 if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/hadrontherapy")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/hadrontherapy")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/hadrontherapy" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/hadrontherapy")
     execute_process(COMMAND /opt/local/bin/install_name_tool
@@ -48,5 +48,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyNew/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/kpadhikari/KpInstalls/Geant4/ExamplesBld/HadronTherapyKp2/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -32,7 +32,8 @@
 #include "globals.hh"
 #include "G4UImessenger.hh"
 
-class HadrontherapyDetectorConstruction;
+//class HadrontherapyDetectorConstruction;
+class PassiveProtonBeamLine; //kp:
 class G4UIdirectory;
 class G4UIcmdWith3VectorAndUnit;
 class G4UIcmdWithoutParameter;
@@ -42,7 +43,8 @@ class G4UIcmdWithABool;
 class HadrontherapyDetectorMessenger: public G4UImessenger
 {
 public:
-    HadrontherapyDetectorMessenger(HadrontherapyDetectorConstruction* );
+    //HadrontherapyDetectorMessenger(HadrontherapyDetectorConstruction* );
+    HadrontherapyDetectorMessenger(PassiveProtonBeamLine* ); //kp:
     ~HadrontherapyDetectorMessenger();
     
     void SetNewValue(G4UIcommand*, G4String);
@@ -50,7 +52,8 @@ public:
 private:
     
     // Pointer to the phantom/detector
-    HadrontherapyDetectorConstruction* hadrontherapyDetector;
+    //HadrontherapyDetectorConstruction* hadrontherapyDetector;
+    PassiveProtonBeamLine* hadrontherapyDetector; //kp
     
     G4UIdirectory *changeThePhantomDir,  *changeTheDetectorDir;
     

@@ -33,7 +33,7 @@
 #include "globals.hh"
 
 class HadrontherapyMatrix;
-class HadrontherapyEventActionMessenger;
+//class HadrontherapyEventActionMessenger;
 
 class HadrontherapyEventAction : public G4UserEventAction
 {
@@ -60,7 +60,7 @@ private:
   G4int hitsCollectionID;
   //HadrontherapyMatrix *matrix; 
   G4int printModulo;  
-  HadrontherapyEventActionMessenger* pointerEventMessenger;
+  //HadrontherapyEventActionMessenger* pointerEventMessenger;
 };
 
 class B4aEventAction : public G4UserEventAction

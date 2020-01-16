@@ -27,17 +27,17 @@
 // See more at: https://twiki.cern.ch/twiki/bin/view/Geant4/AdvancedExamplesHadrontherapy
 
 #include "HadrontherapyStepMax.hh"
-#include "HadrontherapyStepMaxMessenger.hh"
+//#include "HadrontherapyStepMaxMessenger.hh"
 
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyStepMax::HadrontherapyStepMax(const G4String& processName)
  : G4VDiscreteProcess(processName),MaxChargedStep(DBL_MAX)
 {
-  pMess = new HadrontherapyStepMaxMessenger(this);
+  //pMess = new HadrontherapyStepMaxMessenger(this);
 }
  
 /////////////////////////////////////////////////////////////////////////////
-HadrontherapyStepMax::~HadrontherapyStepMax() { delete pMess; }
+HadrontherapyStepMax::~HadrontherapyStepMax() { /*delete pMess;*/ }
 
 /////////////////////////////////////////////////////////////////////////////
 G4bool HadrontherapyStepMax::IsApplicable(const G4ParticleDefinition& particle) 

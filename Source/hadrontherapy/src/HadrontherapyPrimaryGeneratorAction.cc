@@ -27,7 +27,7 @@
 // See more at: https://twiki.cern.ch/twiki/bin/view/Geant4/AdvancedExamplesHadrontherapy
 
 #include "HadrontherapyPrimaryGeneratorAction.hh"
-#include "HadrontherapyPrimaryGeneratorMessenger.hh"
+//#include "HadrontherapyPrimaryGeneratorMessenger.hh"
 
 #include "HadrontherapyMatrix.hh"
 #include "HadrontherapyDetectorSD.hh"
@@ -54,7 +54,7 @@
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyPrimaryGeneratorAction::HadrontherapyPrimaryGeneratorAction()
 {
-    PrimaryGeneratorMessenger = new HadrontherapyPrimaryGeneratorMessenger(this);
+    //PrimaryGeneratorMessenger = new HadrontherapyPrimaryGeneratorMessenger(this);
     SetDefaultPrimaryParticle();
     particleGun = new G4GeneralParticleSource();
     
@@ -63,7 +63,7 @@ HadrontherapyPrimaryGeneratorAction::HadrontherapyPrimaryGeneratorAction()
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyPrimaryGeneratorAction::~HadrontherapyPrimaryGeneratorAction()
 {
-    delete PrimaryGeneratorMessenger;
+    //delete PrimaryGeneratorMessenger;
     delete  particleGun;
 }
 

@@ -65,7 +65,7 @@ Moreover the possibility to add a very simple set-up (a beam, a phantom where co
 #include "G4VisAttributes.hh"
 
 #include "HadrontherapyDetectorROGeometry.hh"
-#include "HadrontherapyDummySD.hh"
+//#include "HadrontherapyDummySD.hh"
 #include "HadrontherapyDetectorSD.hh"
 
 /////////////////////////////////////////////////////////////////////////////

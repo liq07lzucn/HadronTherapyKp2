@@ -34,24 +34,22 @@
 #include <fstream>
 //#include "g4csv.hh"
 
-
+/*
 #ifndef HADRONTHERAPYANALYSISMANAGER_HH
 #define HADRONTHERAPYANALYSISMANAGER_HH 1
 
 class HadrontherapyAnalysisFileMessenger;
 
-/**
- * A class for connecting the simulation to an analysis package.
- */
+// A class for connecting the simulation to an analysis package.
+
 class HadrontherapyAnalysis
 {
 private:
-    /**
-     * Analysis manager is a singleton object (there is only one instance).
-     * The pointer to this object is available through the use of the method GetInstance();
-     *
-     * @see GetInstance
-     */
+   
+     //Analysis manager is a singleton object (there is only one instance).
+     //The pointer to this object is available through the use of the method GetInstance();
+     // @see GetInstance
+    
     HadrontherapyAnalysis();
     
     
@@ -59,9 +57,8 @@ private:
 public:
     ~HadrontherapyAnalysis();
     
-    /**
-     * Get the pointer to the analysis manager.
-     */
+    //Get the pointer to the analysis manager.
+   
     static HadrontherapyAnalysis* GetInstance();
     
     
@@ -72,6 +69,7 @@ public:
 };
 
 #endif
+*/
 
 // The information: energy deposit and position in the phantom
 // is stored in a matrix

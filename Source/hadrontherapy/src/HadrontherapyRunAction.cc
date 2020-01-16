@@ -28,17 +28,18 @@
 
 #include "HadrontherapyRunAction.hh"
 #include "HadrontherapyEventAction.hh"
-#include "HadrontherapyAnalysis.hh"
+//#include "HadrontherapyAnalysis.hh"
 #include "G4Run.hh"
 #include "G4RunManager.hh"
 #include "G4UImanager.hh"
 #include "G4ios.hh"
-#include "HadrontherapyDetectorConstruction.hh"
+//#include "HadrontherapyDetectorConstruction.hh"
+#include "PassiveProtonBeamLine.hh" //kp
 #include "G4SDManager.hh"
 #include "G4Timer.hh"
 #include "HadrontherapyRunAction.hh"
 #include "HadrontherapyMatrix.hh"
-#include "HadrontherapyRBE.hh"
+//#include "HadrontherapyRBE.hh"
 #include "G4UnitsTable.hh"
 #include "G4SystemOfUnits.hh"
 
@@ -47,9 +48,9 @@
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyRunAction::HadrontherapyRunAction()
 {
-    G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
-    accumulableManager->RegisterAccumulable(&fRBEAccumulable);
-    
+    //G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
+    //accumulableManager->RegisterAccumulable(&fRBEAccumulable);
+    /*
     // Create analysis manager
     // The choice of analysis technology is done via selectin of a namespace
     // in Analysis.hh
@@ -67,7 +68,7 @@ HadrontherapyRunAction::HadrontherapyRunAction()
     // in the first voxel/slice of the water phantom
     analysisManager -> CreateH1("Ekin","Ekin the voxel", 400,20*MeV, 60*MeV);
     analysisManager -> CreateH1("Edep","Edep the voxel", 200, -10, 10*MeV);
-    
+    */
     // Example of how to create an Ntuple (comment-out, if needed)
     //analysisManager->CreateNtuple("NYUPLA", "Edep and TrackL");
     //analysisManager->CreateNtupleDColumn("Ekin");
@@ -77,13 +78,13 @@ HadrontherapyRunAction::HadrontherapyRunAction()
 /////////////////////////////////////////////////////////////////////////////
 HadrontherapyRunAction::~HadrontherapyRunAction()
 {
-    delete G4AnalysisManager::Instance();
+    //delete G4AnalysisManager::Instance();
 }
 
 /////////////////////////////////////////////////////////////////////////////
 void HadrontherapyRunAction::BeginOfRunAction(const G4Run* aRun)
 {
-    
+ /*   
     // Get analysis manager
     auto analysisManager = G4AnalysisManager::Instance();
     
@@ -91,19 +92,19 @@ void HadrontherapyRunAction::BeginOfRunAction(const G4Run* aRun)
     //
     G4String fileName = "Hadrontherapy";
     analysisManager->OpenFile(fileName);
-    
+*/    
     G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
     accumulableManager->Reset();
 
     G4RunManager::GetRunManager()-> SetRandomNumberStore(true);
     G4cout << "Run " << aRun -> GetRunID() << " starts ..." << G4endl;
-
+/*
     HadrontherapyRBE *rbe = HadrontherapyRBE::GetInstance();
     if (rbe->IsCalculationEnabled() && IsMaster() && rbe->GetVerboseLevel() > 0)
     {
         rbe->PrintParameters();
     }
-    
+*/    
     electromagnetic = 0;
     hadronic = 0;
 }
@@ -111,7 +112,7 @@ void HadrontherapyRunAction::BeginOfRunAction(const G4Run* aRun)
 /////////////////////////////////////////////////////////////////////////////
 void HadrontherapyRunAction::EndOfRunAction(const G4Run*)
 {
-    auto analysisManager = G4AnalysisManager::Instance();
+    //auto analysisManager = G4AnalysisManager::Instance();
     
     //G4cout << " Summary of Run " << aRun -> GetRunID() <<" :"<< G4endl;
     //G4cout << "Number of electromagnetic processes of primary particles in the phantom:"
@@ -120,7 +121,7 @@ void HadrontherapyRunAction::EndOfRunAction(const G4Run*)
     //	   << hadronic << G4endl;
     G4AccumulableManager* accumulableManager = G4AccumulableManager::Instance();
     accumulableManager->Merge();
-
+/*
     // Tell the RBE class what we have accumulated...
     HadrontherapyRBE *rbe = HadrontherapyRBE::GetInstance();
     if (rbe->IsCalculationEnabled() && IsMaster())
@@ -146,7 +147,7 @@ void HadrontherapyRunAction::EndOfRunAction(const G4Run*)
     
     analysisManager->Write();
     analysisManager->CloseFile();
-
+*/
 }
 /////////////////////////////////////////////////////////////////////////////
 void HadrontherapyRunAction::AddEMProcess()

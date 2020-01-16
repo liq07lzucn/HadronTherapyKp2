@@ -35,7 +35,7 @@
 
 class G4VPhysicsConstructor;
 class HadrontherapyStepMax;
-class HadrontherapyPhysicsListMessenger;
+//class HadrontherapyPhysicsListMessenger;
 
 class HadrontherapyPhysicsList: public G4VModularPhysicsList
 {
@@ -70,7 +70,7 @@ private:
     
     std::vector<G4VPhysicsConstructor*>  hadronPhys;
         
-    HadrontherapyPhysicsListMessenger* pMessenger;
+    //HadrontherapyPhysicsListMessenger* pMessenger;
 };
 
 #endif

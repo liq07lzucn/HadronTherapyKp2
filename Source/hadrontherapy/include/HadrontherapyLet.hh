@@ -56,16 +56,19 @@ class G4Material;
 class HadrontherapyMatrix;
 class HadrontherapyPrimaryGeneratorAction;
 class HadrontherapyInteractionParameters;
-class HadrontherapyDetectorConstruction;
+//class HadrontherapyDetectorConstruction;
+class PassiveProtonBeamLine; //kp
 
 class HadrontherapyLet
 {
 private:
-    HadrontherapyLet(HadrontherapyDetectorConstruction*);
+    //HadrontherapyLet(HadrontherapyDetectorConstruction*);
+    HadrontherapyLet(PassiveProtonBeamLine*); //kp
     
 public:
     ~HadrontherapyLet();
-    static HadrontherapyLet* GetInstance(HadrontherapyDetectorConstruction*);
+    //static HadrontherapyLet* GetInstance(HadrontherapyDetectorConstruction*);
+    static HadrontherapyLet* GetInstance(PassiveProtonBeamLine*); //kp:
     static HadrontherapyLet* GetInstance();
     static G4bool doCalculation;
     void Initialize();
