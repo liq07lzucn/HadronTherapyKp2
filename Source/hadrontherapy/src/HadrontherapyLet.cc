@@ -149,6 +149,28 @@ void  HadrontherapyLet::FillEnergySpectrum(G4int trackID,
     totalLetT[voxel]  += DX * Lsn;                // total track Let Numerator
     DtotalLetT[voxel] += DX;                      // total track Let Denominator
     
+    /*
+     * wiki:
+     * In dosimetry, linear energy transfer (LET) is the amount of energy that an ionizing 
+     * particle transfers to the material traversed per unit distance.
+     * 
+     * It is identical to the retarding force acting on a charged ionizing particle travelling 
+     * through the matter.[1] By definition, LET is a positive quantity.
+     * 
+     * Linear energy transfer is closely related to stopping power, since both equal the retarding force. 
+     * The unrestricted linear energy transfer is identical to linear electronic stopping power. But the 
+     * stopping power and LET concepts are different in the respect that total stopping power has the 
+     * nuclear stopping power component,[2] and this component does not cause electronic excitations. 
+     * Hence nuclear stopping power is not contained in LET.
+     * 
+     * The appropriate SI unit for LET is the newton, but it is most typically expressed in units of 
+     * kiloelectronvolts per micrometre (keV/μm) or megaelectronvolts per centimetre (MeV/cm). While medical 
+     * physicists and radiobiologists usually speak of linear energy transfer, most non-medical physicists 
+     * talk about stopping power.
+     */
+    
+    
+    
     // store primary ions and secondary ions
     size_t l;
     for (l=0; l < ionLetStore.size(); l++)

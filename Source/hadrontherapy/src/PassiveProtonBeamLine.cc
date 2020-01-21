@@ -291,9 +291,12 @@ void PassiveProtonBeamLine::SetDimensionsOfPhantomAndDetector()
     //
     // Default detector voxels size
     // 200 slabs along the beam direction (X)
-    sizeOfVoxelAlongX = 200 *um;
-    sizeOfVoxelAlongY = 4 *cm;
-    sizeOfVoxelAlongZ = 4 *cm;
+    sizeOfVoxelAlongX = 200 *um; //40. cm/ 200 um   = 200 bins = 1 mm slice
+    sizeOfVoxelAlongY = 4 *cm;   //40. cm / 4 cm    = 10 bins  = 40 mm slice
+    sizeOfVoxelAlongZ = 4 *cm;   //40. cm / 4 cm    = 10 bins  = 40 mm slice
+    //kp: I was changing these numbers from macro, using lines such as follows:
+    //     /changeDetector/voxelSize 2 400 400 mm
+    //   where I am using 100 x-bins of size 2 mm, 1 y- and z- bins of size 40 cm or 400 mm
     
     // Define here the material of the water phantom and of the detector
     SetPhantomMaterial("G4_WATER");

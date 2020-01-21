@@ -83,7 +83,7 @@
 #/gps/ene/mono 60.0 MeV
 #/gps/ene/mono 100.0 MeV
 #/gps/ene/mono 205.0 MeV
-/gps/ene/mono   182.00 MeV
+/gps/ene/mono   260.00 MeV
 #/gps/ene/sigma 0.25 MeV
 #/gps/ene/mono 744 MeV
 #/gps/ene/sigma 0.740 MeV
@@ -136,5 +136,5 @@
 #/run/printProgress 10000
 #/run/beamOn 1000
 #/run/beamOn 3000
-/run/beamOn 50000
+/run/beamOn 100000
 /tracking/verbose 0
